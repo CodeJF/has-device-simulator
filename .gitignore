@@ -1,0 +1,19 @@
+# Build artifacts
+/device-simulator
+*.exe
+*.test
+*.out
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+.run/
+
+# Claude Code local state
+.claude/
+
+# Local dev config (contains real secrets — see configs/*.example.yaml)
+configs/sl100-dev.yaml

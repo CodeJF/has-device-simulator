@@ -1,0 +1,27 @@
+backend:
+  api_base_url: "http://127.0.0.1:8080"
+  timeout_seconds: 10
+
+mqtt:
+  broker: "tcp://127.0.0.1:1883"
+  keepalive_seconds: 30
+  clean_session: true
+  client_id: ""
+
+device:
+  model: "SL100"
+  uuid: "SIM-LOCK-0001"
+  uid: "u_demo_dev"
+  appid: "smartlock"
+  mac: "00:11:22:33:44:55"
+  zone: "Asia/Shanghai"
+  version: "1.0.0"
+  model_secret: "REPLACE_WITH_YOUR_MODEL_SECRET"
+
+behavior:
+  heartbeat_seconds: 60
+  attr_post_seconds: 0
+
+credentials:
+  mode: "fixed"
+  fixed_password: "REPLACE_WITH_YOUR_FIXED_PASSWORD"
